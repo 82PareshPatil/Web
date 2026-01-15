@@ -5,4 +5,10 @@ function sum(a,b,funToCall) {
 function doubltick(data){
     console.log(data)
 }
-sum(1,2,doubltick)
+//endregion
+//region set timout
+function call(){
+    console.log("Hello Node")
+}
+setTimeout(call, 5*(1000));
+//endregion
